@@ -177,14 +177,14 @@ gulp.task 'rsync', ->
       console.log cmd
 
 gulp.task 'deploy', ->
-    deploy = require('gulp-gh-pages')
+  deploy = require('gulp-gh-pages')
 
-    deploy_files = [
-        'index.html'
-        'dist/**/*'
-        'images/**/*'
-    ]
+  deploy_files = [
+    'index.html'
+    'dist/*'
+    'images/*'
+  ]
 
-    gulp
-    .src deploy_files
-    .pipe deploy()
+  gulp
+  .src deploy_files
+  .pipe deploy()
