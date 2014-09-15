@@ -6,7 +6,7 @@ Resources of React are collected in the Wiki pages:
 
 https://github.com/react-china/collections/wiki/Collections
 
-On http://react.mvc.im you my see a copy.
+On http://react.mvc.im you may see a copy.
 
 ### Develop
 

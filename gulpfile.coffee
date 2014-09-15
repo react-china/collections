@@ -175,3 +175,16 @@ gulp.task 'rsync', ->
       console.error stderr
     else
       console.log cmd
+
+gulp.task 'deploy', ->
+    deploy = require('gulp-gh-pages')
+
+    deploy_files = [
+        'index.html'
+        'dist/**/*'
+        'images/**/*'
+    ]
+
+    gulp
+    .src deploy_files
+    .pipe deploy()
