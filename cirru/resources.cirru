@@ -92,6 +92,19 @@ article
     = "React vs. Ember - Alex Matchneer - EmberNYC meetup - Google Slides"
 
 article
+  #tests
+  header Test
+  .post $ a (:target _blank)
+    :href http://facebook.github.io/jest/
+    = "Jest"
+  .post $ a (:target _blank)
+    :href http://maketea.co.uk/2014/05/22/building-robust-web-apps-with-react-part-3.html
+    = "Building robust web apps with React: Part 3, testing with Jasmine"
+  .post $ a (:target _blank)
+    :href https://github.com/securingsincity/react-jest-example
+    = "react-jest-example"
+
+article
   #videos
   header Videos
 
