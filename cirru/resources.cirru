@@ -90,6 +90,9 @@ article
   .post $ a (:target _blank)
     :href https://docs.google.com/presentation/d/1afMLTCpRxhJpurQ97VBHCZkLbR1TEsRnd3yyxuSQ5YY/preview?sle=true
     = "React vs. Ember - Alex Matchneer - EmberNYC meetup - Google Slides"
+  .post $ a (:target _blank)
+    :href https://speakerdeck.com/vjeux/why-does-react-scale-jsconf-2014
+    = "Why does React scale? - JSConf 2014 by vjeux"
 
 article
   #tests
