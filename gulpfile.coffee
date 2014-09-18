@@ -181,10 +181,10 @@ gulp.task 'deploy', ->
 
   deploy_files = [
     'index.html'
-    'dist/**/*'
-    'images/*/**'
+    'dist/*'
+    'images/*'
   ]
 
   gulp
-  .src deploy_files
+  .src deploy_files, {base: '.'}
   .pipe deploy()
