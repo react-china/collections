@@ -181,8 +181,8 @@ gulp.task 'deploy', ->
 
   deploy_files = [
     'index.html'
-    'dist/*'
-    'images/*'
+    'dist/**/*'
+    'images/*/**'
   ]
 
   gulp
