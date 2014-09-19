@@ -181,6 +181,8 @@ gulp.task 'deploy', ->
 
   deploy_files = [
     'index.html'
+    'gulpfile.coffee'
+    'package.json'
     'dist/*'
     'images/*'
   ]

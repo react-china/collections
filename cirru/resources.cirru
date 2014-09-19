@@ -83,6 +83,12 @@ article
   .post $ a (:target _blank)
     :href http://blog.getprismatic.com/om-sweet-om-high-functional-frontend-engineering-with-clojurescript-and-react/
     = "Om sweet Om: (high-)functional frontend engineering with ClojureScript and React"
+  .post $ a (:target _blank)
+    :href http://khan.github.io/react-components/
+    = "React Components reusable components by Khan Academy"
+  .post $ a (:target _blank)
+    :href http://www.techsonian.net/2014/09/from-backbone-to-react-our-experience-scaling-a-web-application/
+    = "From Backbone to React: Our Experience Scaling a Web Application"
 
 article
   #slides
