@@ -3,6 +3,10 @@ bower_components/
 node_modules/
 
 build/
-dist/
+cirru/
 
-index.html
+coffee/
+css/
+
+gulpfile.coffee
+package.json
