@@ -3,6 +3,7 @@ nav
   span React
   a (:href #articles) (= Articles)
   a (:href #slides) (= Slides)
+  a (:href #tests) (= Testing)
   a (:href #videos) (= Videos)
   a (:href #audios) (= Audios)
   a (:href #projects) (= Projects)

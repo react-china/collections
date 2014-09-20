@@ -102,7 +102,7 @@ article
 
 article
   #tests
-  header Test
+  header Testing
   .post $ a (:target _blank)
     :href http://facebook.github.io/jest/
     = "Jest"
@@ -186,6 +186,15 @@ article
   .post $ a (:target _blank)
     :href https://github.com/gaearon/react-hot-loader
     = "react-hot-loader"
+  .post $ a (:target _blank)
+    :href https://github.com/kriasoft/react-starter-kit
+    = "Facebook React Starter Kit"
+  .post $ a (:target _blank)
+    :href https://github.com/Granze/react-starterify
+    = "React Starterify"
+  .post $ a (:target _blank)
+    :href https://github.com/ThomasDeutsch/react-webpack
+    = "react-webpack"
 
 article
   #translations
