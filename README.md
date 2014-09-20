@@ -1,4 +1,3 @@
-
 React Collections
 ------
 
@@ -6,13 +5,14 @@ Resources of React are collected in the Wiki pages:
 
 https://github.com/react-china/collections/wiki/Collections
 
-On http://react.mvc.im you may see a copy.
+On http://http://react-china.org/collections/ you may see a copy.
 
 ### Develop
 
-This project is generated from https://github.com/mvc-works/workflow .
-
-Before updating code in this repo, check that first.
+```
+$ npm i
+$ gulp build
+```
 
 ### License
 
