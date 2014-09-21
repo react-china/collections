@@ -89,6 +89,21 @@ article
   .post $ a (:target _blank)
     :href http://www.techsonian.net/2014/09/from-backbone-to-react-our-experience-scaling-a-web-application/
     = "From Backbone to React: Our Experience Scaling a Web Application"
+  .post $ a (:target _blank)
+    :href http://www.mono-software.com/blog/post/Mono/242/Improving-AngularJS-long-list-rendering-performance-using-ReactJS/
+    = "Improving AngularJS long list rendering performance using ReactJS"
+  .post $ a (:target _blank)
+    :href http://www.funnyant.com/reactjs-what-is-it
+    = "React.js and How Does It Fit In With Everything Else?"
+  .post $ a (:target _blank)
+    :href http://nicolashery.com/integrating-d3js-visualizations-in-a-react-app/
+    = "Integrating D3.js visualizations in a React app"
+  .post $ a (:target _blank)
+    :href http://www.syncano.com/getting-started-reactjs-tutorial/
+    = "Getting Started with React.js – Tutorial"
+  .post $ a (:target _blank)
+    :href http://ianobermiller.com/blog/2014/09/15/react-and-flux-interview
+    = "React and Flux Interview"
 
 article
   #slides
@@ -154,6 +169,30 @@ article
     a (:target _blank)
       :href http://www.slideshare.net/floydophone/react-preso-v2
       = Slide
+  .post
+    a (:target _blank)
+      :href http://www.tudou.com/programs/view/ivImKNig9-k/?bid=03&pid=02&resourceId=56179749_03_0_02
+      = "'React- RESTful UI Rendering' by Pete Hunt"
+  .post
+    a (:target _blank)
+      :href www.youtube.com/watch?v=MivXyEtwK24
+      = "Refactoring to React"
+    a (target: _blank)
+      :href http://www.tudou.com/programs/view/muWsme1klKY/?bid=03&pid=02&resourceId=56179749_03_0_02
+      = 土豆
+  .post
+    a (:target _blank)
+      :href www.youtube.com/watch?v=h3KksH8gfcQ
+      = "Mountain West JavaScript 2014 - Be Predictable, Not Correct. by Pete Hunt"
+    a (:target _blank)
+      :href http://www.tudou.com/programs/view/IYZou6G4MmY/?bid=03&pid=02&resourceId=56179749_03_0_02
+  .post
+    a (:target _blank)
+      :href www.youtube.com/watch?v=qqVbr_LaCIo
+      = "Pete Hunt: High performance functional programming with React and Meteor"
+    a (:target _blank)
+      :href http://www.tudou.com/programs/view/9TXaYMeFTDA/?bid=03&pid=02&resourceId=56179749_03_0_02
+      = "土豆"
 
 article
   #audios
@@ -166,6 +205,9 @@ article
     a (:target _blank)
       :href http://pan.baidu.com/s/1nt9e7bj
       = 百度云
+  .post $ a (:target _blank)
+    :href http://codewinds.com/podcast/004.html
+    = "CW 004 : Pete Hunt, Software Engineer for Facebook, discussing Facebook's open source js UI framework, React"
 
 article
   #projects
@@ -195,6 +237,12 @@ article
   .post $ a (:target _blank)
     :href https://github.com/ThomasDeutsch/react-webpack
     = "react-webpack"
+  .post $ a (:target _blank)
+    :href https://github.com/kriasoft/react-starter-kit
+    = "Facebook React Starter Kit"
+  .post $ a (:target _blank)
+    :href https://github.com/japgolly/scalajs-react
+    = "scalajs-react: A guilty affair between Scala.js and Facebook's React"
 
 article
   #translations

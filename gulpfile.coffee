@@ -29,13 +29,14 @@ gulp.task 'watch', ->
   browserify = require 'browserify'
   reloader.listen()
 
-  gulp
-  .src 'cirru/*.cirru'
-  .pipe watch()
-  .pipe plumber()
-  .pipe html(data: {dev: yes})
-  .pipe gulp.dest('./')
-  .pipe reloader(project)
+  watch glob: 'cirru/*.cirru', emitOnGlob: no, (files) ->
+    gulp
+    .src 'cirru/index.cirru'
+    .pipe plumber()
+    .pipe html(data: {dev: dev})
+    .pipe gulp.dest('./')
+    .pipe reloader(project)
+    return files
 
   watch glob: 'coffee/**/*.coffee', emitOnGlob: no, (files) ->
     files

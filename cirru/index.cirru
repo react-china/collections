@@ -19,6 +19,6 @@ html
   body
     @partial navbar.cirru
     img (:src ./images/react-logo-1000-transparent.png)
-    section
-      @partial resources.cirru
+    section $ @partial about.cirru
+    section $ @partial resources.cirru
     @insert ga.html

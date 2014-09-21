@@ -5,6 +5,10 @@ body {
     background: #f9f9f9;
 }
 
+article.about {
+    margin-top: 140px;
+}
+
 body * {
     box-sizing: border-box;
 }
@@ -13,6 +17,7 @@ body > img {
     position: fixed;
     right: 0;
     z-index: -1;
+    top: 0;
 }
 
 .post a {
@@ -22,10 +27,9 @@ body > img {
 
 body > section {
     width: 80%;
-    margin: auto;
     font-size: 16px;
     line-height: 2em;
-    margin-bottom: 12em;
+    margin: 0 auto;
 }
 
 header {
