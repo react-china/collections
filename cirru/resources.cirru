@@ -171,7 +171,7 @@ article
       = Slide
   .post
     a (:target _blank)
-      :href http://www.tudou.com/programs/view/ivImKNig9-k/?bid=03&pid=02&resourceId=56179749_03_0_02
+      :href https://www.youtube.com/watch?v=IVvHPPcl2TM
       = "'React- RESTful UI Rendering' by Pete Hunt"
     a (:target _blank)
       :href http://www.tudou.com/programs/view/ivImKNig9-k/
