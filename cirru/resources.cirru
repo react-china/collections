@@ -173,11 +173,14 @@ article
     a (:target _blank)
       :href http://www.tudou.com/programs/view/ivImKNig9-k/?bid=03&pid=02&resourceId=56179749_03_0_02
       = "'React- RESTful UI Rendering' by Pete Hunt"
+    a (:target _blank)
+      :href http://www.tudou.com/programs/view/ivImKNig9-k/
+      = "土豆"
   .post
     a (:target _blank)
       :href www.youtube.com/watch?v=MivXyEtwK24
       = "Refactoring to React"
-    a (target: _blank)
+    a (:target _blank)
       :href http://www.tudou.com/programs/view/muWsme1klKY/?bid=03&pid=02&resourceId=56179749_03_0_02
       = 土豆
   .post
